@@ -1,24 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import { AiFillApple } from 'react-icons/ai';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Hello World <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <main className='bg-white px-10'>
+      <section className='min-h-screen'>
+        <nav className='py-10 mb-12 flex justify-between'>
+          <h1 className='text-2xl'>David Dowell</h1>
+          <ul className='flex items-center'>
+            <li>
+              <AiFillApple/>
+            </li>
+          </ul>
+        </nav>
+      </section>
+    </main>
   );
 }
 
