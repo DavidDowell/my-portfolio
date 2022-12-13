@@ -1,11 +1,12 @@
 import Nav from './components/Nav';
+import About from './components/About';
 
 function App() {
   return (
     <div>
       <Nav></Nav>
-    <main className='bg-white px-10'>
-      
+    <main>
+        <About></About>
     </main>
     </div>
   );
