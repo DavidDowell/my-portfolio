@@ -2,15 +2,81 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --title-color: #14b8a6; 
+}
+
+
 
 body {
   margin: 0;
+  padding: 0;
   font-family: 'Roboto';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: rgb(201,207,241) !important;
+  background: radial-gradient(circle, rgba(201,207,241,1) 0%, rgba(60,61,102,1) 100%) !important;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+/* @import url(https://fonts.googleapis.com/css?family=Merriweather);
+html, */
+/* body {
+  background: #f1f1f1;
+  font-family: 'Merriweather', sans-serif;
+  padding: 1em;
+} */
+
+h1 {
+  text-align: center;
+  color: #646464;
+}
+
+form {
+  max-width: 600px;
+  text-align: center;
+  margin: 20px auto; 
+}
+
+input,
+textarea {
+  outline: 0;
+  padding: 1em;
+  border-radius: 8px;
+  display: flex;
+  width: 100%;
+  margin: 1rem;
+  font-family: 'Merriweather', sans-serif;
+  resize: none;
+  background-color: #f1f1f1;
+}
+
+#input-submit {
+  color: white;
+  background: #100b2d;
+  cursor: pointer;
+}
+
+#input-submit:hover {
+  box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.2);
+  background-color: dimgray;
+}
+
+textarea {
+  height: 126px;
+}
+
+
+.contact-div {
+  margin-top: 10%;
+}
+
+
+/* portfolio */
+.portfolio-section {
+  margin-top: 8%;
 }

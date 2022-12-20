@@ -4,12 +4,27 @@ import { AiFillStepBackward } from "react-icons/ai";
 
 function Nav() {
   return (
-    <header className="flex-column justify-between px-1 font-mono dark">
+    <header className="flex-column justify-between px-1 font-mono m-5">
+      <div className="flex justify-between text-2xl">
+        <div className="animate-fade-out-down duration-300">1</div>
+        <div className="animate-fade-out-down ">0</div>
+        <div className="animate-fade-out-down ">1</div>
+        <div className="animate-fade-out-down ">0</div>
+        <div className="animate-fade-out-down ">1</div>
+        <div className="animate-fade-out-down ">0</div>
+        <div className="animate-fade-out-down ">1</div>
+        <div className="animate-fade-out-down ">0</div>
+        <div className="animate-fade-out-down ">1</div>
+        <div className="animate-fade-out-down ">0</div>
+        <div className="animate-fade-out-down ">1</div>
+        <div className="animate-fade-out-down ">0</div>
+        <div className="animate-fade-out-down ">1</div>
+      </div>
       <h2>
         <a
-          className="flex justify-center no-underline hover:underline text-black my-3"
+          className="flex justify-center no-underline hover:text-teal-300 hover:scale-150 text-black text-3xl my-3"
           data-testid="link"
-          href="/"
+          href="/my-portfolio"
         >
           <AiFillStepForward></AiFillStepForward> David Dowell{" "}
           <AiFillStepBackward></AiFillStepBackward>
@@ -17,36 +32,36 @@ function Nav() {
       </h2>
       <nav className="mt-10">
         <ul className="flex justify-evenly">
-          <li className="navActive">
+          <li className="hover:scale-125">
             <a
-              className="no-underline hover:underline text-black"
+              className="no-underline hover:text-teal-300 text-black md:text-4xl text-2xl"
               data-testid="about"
               href="/my-portfolio"
             >
               About Me
             </a>
           </li>
-          <li className="mx-2">
+          <li className="mx-2 hover:scale-125">
             <a
-              className="no-underline hover:underline text-black"
+              className="no-underline hover:text-teal-300 text-black md:text-4xl text-2xl"
               data-testid="portfolio"
               href="/portfolio"
             >
               Portfolio
             </a>
           </li>
-          <li>
+          <li className="hover:scale-125">
             <a
-              className="no-underline hover:underline text-black"
+              className="no-underline hover:text-teal-300 text-black md:text-4xl text-2xl"
               data-testid="contact"
               href="/contact"
             >
               Contact
             </a>
           </li>
-          <li>
+          <li className="hover:scale-125">
             <a
-              className="no-underline hover:underline text-black"
+              className="no-underline hover:text-teal-300 text-black md:text-4xl text-2xl"
               data-testid="resume"
               href="/resume"
             >

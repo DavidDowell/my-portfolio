@@ -2,11 +2,12 @@ import React from 'react';
 import Nav from './components/Nav';
 import About from './components/About';
 import Portfolio from './components/Portfolio';
+import Contact from'./components/Contact';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
-    <main>
+    <main className='selection:bg-gray-900 selection:text-white'>
     <Router>
     <div>
     <Nav></Nav>
@@ -20,7 +21,10 @@ function App() {
         path="/portfolio"
         element={<Portfolio />}
       />
-    
+      <Route
+        path="/contact"
+        element={<Contact />}
+      />
     </Routes>
     </div>
     </Router>
