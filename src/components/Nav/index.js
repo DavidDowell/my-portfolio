@@ -43,7 +43,7 @@ function Nav() {
         </a>
       </h2>
       <nav className="mt-10">
-        <ul className="flex justify-evenly">
+        <ul className="flex justify-evenly flex-wrap">
           <li className="hover:scale-125">
             <a
               className="no-underline hover:text-teal-300 text-black md:text-4xl text-2xl"
