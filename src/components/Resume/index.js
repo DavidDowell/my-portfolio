@@ -73,7 +73,7 @@ const Resume = () => {
                     </div>
                 </div>
             </div>
-            <div>
+            <div className='mb-10'>
                 <h2 className='md:text-5xl text-4xl'>Back-end Proficiences</h2>
                 <div className='flex hover:text-teal-300 hover-underline-animation'>
                     <div className='text-white text-2xl hover:-translate-x-1'>
