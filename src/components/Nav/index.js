@@ -1,4 +1,3 @@
-import React, { useEffect } from "react";
 import { AiFillStepForward } from "react-icons/ai";
 import { AiFillStepBackward } from "react-icons/ai";
 
@@ -6,19 +5,32 @@ function Nav() {
   return (
     <header className="flex-column justify-between px-1 font-mono m-5">
       <div className="flex justify-between text-2xl">
-        <div className="animate-fade-out-down duration-300">1</div>
-        <div className="animate-fade-out-down ">0</div>
-        <div className="animate-fade-out-down ">1</div>
-        <div className="animate-fade-out-down ">0</div>
-        <div className="animate-fade-out-down ">1</div>
-        <div className="animate-fade-out-down ">0</div>
-        <div className="animate-fade-out-down ">1</div>
-        <div className="animate-fade-out-down ">0</div>
-        <div className="animate-fade-out-down ">1</div>
-        <div className="animate-fade-out-down ">0</div>
-        <div className="animate-fade-out-down ">1</div>
-        <div className="animate-fade-out-down ">0</div>
-        <div className="animate-fade-out-down ">1</div>
+        <div className="animate-fade-out-down text-white animation-delay-500">1</div>
+        <div className="animate-fade-out-down text-white">0</div>
+        <div className="animate-fade-out-down text-white animation-delay-700">1</div>
+        <div className="animate-fade-out-down text-white animation-delay-800">0</div>
+        <div className="animate-fade-out-down text-white animation-delay-100">1</div>
+        <div className="animate-fade-out-down text-white animation-delay-500">0</div>
+        <div className="animate-fade-out-down text-white">1</div>
+        <div className="animate-fade-out-down text-white animation-delay-700">0</div>
+        <div className="animate-fade-out-down text-white animation-delay-800">1</div>
+        <div className="animate-fade-out-down text-white animation-delay-100">0</div>
+        <div className="animate-fade-out-down text-white animation-delay-500">1</div>
+        <div className="animate-fade-out-down text-white ">0</div>
+        <div className="animate-fade-out-down text-white animation-delay-700">1</div>
+        <div className="animate-fade-out-down text-white animation-delay-500">1</div>
+        <div className="animate-fade-out-down text-white">0</div>
+        <div className="animate-fade-out-down text-white animation-delay-700">1</div>
+        <div className="animate-fade-out-down text-white animation-delay-800">0</div>
+        <div className="animate-fade-out-down text-white animation-delay-100">1</div>
+        <div className="animate-fade-out-down text-white animation-delay-500">0</div>
+        <div className="animate-fade-out-down text-white">1</div>
+        <div className="animate-fade-out-down text-white animation-delay-700">0</div>
+        <div className="animate-fade-out-down text-white animation-delay-800">1</div>
+        <div className="animate-fade-out-down text-white animation-delay-100">0</div>
+        <div className="animate-fade-out-down text-white animation-delay-500">1</div>
+        <div className="animate-fade-out-down text-white ">0</div>
+        <div className="animate-fade-out-down text-white animation-delay-700">1</div>
       </div>
       <h2>
         <a

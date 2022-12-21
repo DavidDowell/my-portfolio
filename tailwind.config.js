@@ -53,17 +53,40 @@ module.exports = {
         wiggle: {
           '0%, 100%': { transform: 'rotate(-20deg)' },
           '50%': { transform: 'rotate(20deg)' },
-        }
+        },
+        animationDelay: {
+          2000: '2000ms',
       },
+      animationDuration: {
+          2000: '2000ms',
+      },
+      animationIteration: {
+          '10x': '10',
+      },
+      animationTiming: {
+          cubic: 'cubic-bezier(0, 0, 0.2, 1)',
+      },
+      },
+      variants: {
+        animationDelay: ['responsive'],
+        animationDuration: ['responsive'],
+        animationIteration: ['responsive'],
+        animationTiming: ['responsive'],
+        animationDirection: ['responsive'],
+        animationFillMode: ['responsive'],
+        animationPlayState: ['responsive'],
+    },
       animation: {
         wiggle: 'wiggle 1s ease-in-out infinite',
-        'fade-in-down': 'fade-in-down 7s linear',
-        'fade-out-down': 'fade-out-down 5s infinite',
-        'fade-in-up': 'fade-in-up 7s linear',
-        'fade-out-up': 'fade-out-up 7s linear'
+        'fade-in-down': 'fade-in-down 3s linear',
+        'fade-out-down': 'fade-out-down 7s infinite',
+        'fade-in-up': 'fade-in-up 3s linear',
+        'fade-out-up': 'fade-out-up 3s linear'
       }
     },
     
   },
-  plugins: [],
+  plugins: [
+    require('tailwindcss-animation'),
+  ],
 }

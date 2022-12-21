@@ -63,7 +63,7 @@ textarea {
 
 #input-submit:hover {
   box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.2);
-  background-color: dimgray;
+  background-color: rgb(98, 229, 179);
 }
 
 textarea {
@@ -79,4 +79,29 @@ textarea {
 /* portfolio */
 .portfolio-section {
   margin-top: 8%;
+}
+
+/* hover underline */
+.hover-underline-animation {
+  display: flex;
+  position: relative;
+  color: black;
+}
+
+.hover-underline-animation::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  background-color: #44ffe9;
+  left: 5%;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
 }

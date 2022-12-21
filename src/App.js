@@ -3,6 +3,7 @@ import Nav from './components/Nav';
 import About from './components/About';
 import Portfolio from './components/Portfolio';
 import Contact from'./components/Contact';
+import Resume from './components/Resume';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
@@ -24,6 +25,10 @@ function App() {
       <Route
         path="/contact"
         element={<Contact />}
+      />
+      <Route
+        path="/resume"
+        element={<Resume />}
       />
     </Routes>
     </div>
