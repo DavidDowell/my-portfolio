@@ -5,7 +5,7 @@ import { HiChevronRight } from "react-icons/hi";
 const Resume = () => {
     return(
         <div className="m-20">
-            <div className='flex md:justify-center justify-start'>
+            <div className='flex justify-center'>
                 <h1 className="text-5xl text-black">Resume</h1>
                 <div className='text-3xl'>
                     <a className="hover:text-teal-300 text-white animate-pulse"href={require('../../assets/pdf/DD-resume.pdf')} download>
@@ -13,9 +13,9 @@ const Resume = () => {
                     </a>
                 </div>
             </div>
-            <div className='flex justify-around flex-wrap'>
+            <div className='flex md:justify-around justify-between flex-wrap'>
             <div className='mb-5'>
-                <h2 className='text-5xl'>Front-end Proficiences</h2>
+                <h2 className='md:text-5xl text-4xl'>Front-end Proficiences</h2>
                 <div className='flex hover:text-teal-300 hover-underline-animation'>
                     <div className='text-white text-2xl hover:-translate-x-1'>
                         <HiChevronRight></HiChevronRight>
@@ -74,7 +74,7 @@ const Resume = () => {
                 </div>
             </div>
             <div>
-                <h2 className='text-5xl'>Back-end Proficiences</h2>
+                <h2 className='md:text-5xl text-4xl'>Back-end Proficiences</h2>
                 <div className='flex hover:text-teal-300 hover-underline-animation'>
                     <div className='text-white text-2xl hover:-translate-x-1'>
                         <HiChevronRight></HiChevronRight>
