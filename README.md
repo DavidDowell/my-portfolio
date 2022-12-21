@@ -1,6 +1,8 @@
 
   # my-portfolio
 
+  https://daviddowell.github.io/my-portfolio/resume
+
 
   ## Description
   This is my final portfolio using REACT.js. This project contains an About Me, Projects I worked on, Contact section, and a place to view or download my resume. 
