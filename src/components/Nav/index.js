@@ -43,7 +43,7 @@ function Nav() {
         </a>
       </h2>
       <nav className="mt-10">
-        <ul className="flex justify-evenly">
+        <ul className="flex justify-evenly flex-wrap">
           <li className="hover:scale-125">
             <a
               className="no-underline hover:text-teal-300 text-black md:text-4xl text-2xl"
@@ -57,7 +57,7 @@ function Nav() {
             <a
               className="no-underline hover:text-teal-300 text-black md:text-4xl text-2xl"
               data-testid="portfolio"
-              href="/portfolio"
+              href="/my-portfolio/portfolio"
             >
               Portfolio
             </a>
@@ -66,7 +66,7 @@ function Nav() {
             <a
               className="no-underline hover:text-teal-300 text-black md:text-4xl text-2xl"
               data-testid="contact"
-              href="/contact"
+              href="/my-portfolio/contact"
             >
               Contact
             </a>
@@ -75,7 +75,7 @@ function Nav() {
             <a
               className="no-underline hover:text-teal-300 text-black md:text-4xl text-2xl"
               data-testid="resume"
-              href="/resume"
+              href="/my-portfolio/resume"
             >
               Resume
             </a>

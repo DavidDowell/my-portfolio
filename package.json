@@ -1,6 +1,9 @@
 {
   "name": "my-portfolio",
   "version": "0.1.0",
+  "engines": {
+    "node": "16.17.0"
+  },
   "homepage": "http://DavidDowell.github.io/my-portfolio",
   "private": true,
   "dependencies": {
