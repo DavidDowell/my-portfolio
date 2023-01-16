@@ -3,6 +3,7 @@ import mealMaker from "../../assets/projects/meal-maker.jpg"
 import tikTak from "../../assets/projects/tik-tak.jpg"
 import techBlog from "../../assets/projects/tech-blog.jpg"
 import Jate from "../../assets/projects/jate.jpg"
+import ourplace from "../../assets/projects/ourplace.jpg"
 import { AiFillGithub } from 'react-icons/ai'
 
 const Portfolio = () => {
@@ -70,6 +71,19 @@ const Portfolio = () => {
                     </div>
                     <div className="absolute top-4 left-2 xl:text-8xl text-5xl invisible">
                         <a className="text-black hover:text-slate-200 hover:contrast-200 group-hover/edit:visible" href="https://github.com/DavidDowell/text-editor" target="_blank" rel="noreferrer">
+                        <AiFillGithub className="bg-transparent"></AiFillGithub>
+                        </a>
+                    </div>
+                </div>
+                <div className="relative m-2 group group/edit transition ease-in-out delay-200 hover:translate-y-1 hover:scale-90 duration-300 md:col-end-7 md:col-span-6 col-span-6">
+                    <img src={ourplace} className='m-2 p-8 rounded-3xl shadow-lg group-hover:opacity-10 bg-slate-500' style={{ width: '100%', height: '80%'}} alt='cover'/>
+                    <div className="absolute left-0 top-24 right-0 text-center invisible">
+                        <a className="no-underline text-black xl:text-5xl text-3xl font-serif font-bold hover:text-slate-200 hover:contrast-200 group-hover/edit:visible" href="https://p3-our-place.herokuapp.com/" target="_blank" rel="noreferrer">
+                            OurPlace
+                        </a>
+                    </div>
+                    <div className="absolute top-4 left-2 xl:text-8xl text-5xl invisible">
+                        <a className="text-black hover:text-slate-200 hover:contrast-200 group-hover/edit:visible" href="https://github.com/awchen85/project-3" target="_blank" rel="noreferrer">
                         <AiFillGithub className="bg-transparent"></AiFillGithub>
                         </a>
                     </div>
