@@ -11,16 +11,14 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Roboto';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: rgb(201,207,241) !important;
-  background: radial-gradient(circle, rgba(201,207,241,1) 0%, rgba(60,61,102,1) 100%) !important;
+  background: #4682B4 !important;
+  font-family: 'Playfair Display', serif;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: 'Playfair Display', serif;
 }
 
 /* @import url(https://fonts.googleapis.com/css?family=Merriweather);
@@ -34,6 +32,7 @@ html, */
 h1 {
   text-align: center;
   color: #646464;
+  font-family: 'Bitter', serif;
 }
 
 form {
@@ -57,13 +56,13 @@ textarea {
 
 #input-submit {
   color: white;
-  background: #100b2d;
+  background: #212359;
   cursor: pointer;
 }
 
 #input-submit:hover {
-  box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.2);
-  background-color: rgb(98, 229, 179);
+  box-shadow: 0 0px 0px 3px rgba(0, 0, 0.2, 0.3);
+  color: white;
 }
 
 textarea {
@@ -78,7 +77,7 @@ textarea {
 
 /* portfolio */
 .portfolio-section {
-  margin-top: 8%;
+  margin-top: 5%;
 }
 
 /* hover underline */
@@ -105,3 +104,30 @@ textarea {
   transform: scaleX(1);
   transform-origin: bottom left;
 }
+
+.wave {
+  margin-top: 5px;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.wave svg {
+  display: block;
+  width: calc(141% + 1.3px);
+  height: 290px;
+}
+
+.wave .shape-fill {
+  fill: #4682B4;
+}
+
+#Footer {
+  z-index: 5;
+  background-color: #212359;
+}
+
+.title {
+  font-family: 'Playfair Display', serif;
+}
+

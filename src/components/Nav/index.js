@@ -3,8 +3,8 @@ import { AiFillStepBackward } from "react-icons/ai";
 
 function Nav() {
   return (
-    <header className="flex-column justify-between px-1 font-mono m-5">
-      <div className="flex justify-between text-2xl">
+    <header className="flex-column justify-between px-1 m-5">
+      {/* <div className="flex justify-between text-2xl">
         <div className="animate-fade-out-down text-white animation-delay-500">1</div>
         <div className="animate-fade-out-down text-white">0</div>
         <div className="animate-fade-out-down text-white animation-delay-700">1</div>
@@ -31,10 +31,10 @@ function Nav() {
         <div className="animate-fade-out-down text-white animation-delay-500">1</div>
         <div className="animate-fade-out-down text-white ">0</div>
         <div className="animate-fade-out-down text-white animation-delay-700">1</div>
-      </div>
+      </div> */}
       <h2>
         <a
-          className="flex justify-center no-underline hover:text-teal-300 hover:scale-150 text-black text-3xl my-3"
+          className="flex justify-center no-underline hover:scale-150 text-black hover:text-white text-3xl my-3"
           data-testid="link"
           href="/my-portfolio"
         >
@@ -46,7 +46,7 @@ function Nav() {
         <ul className="flex justify-evenly flex-wrap">
           <li className="hover:scale-125">
             <a
-              className="no-underline hover:text-teal-300 text-black md:text-4xl text-2xl"
+              className="no-underline text-black hover:text-white md:text-4xl text-2xl"
               data-testid="about"
               href="/my-portfolio"
             >
@@ -55,7 +55,7 @@ function Nav() {
           </li>
           <li className="mx-2 hover:scale-125">
             <a
-              className="no-underline hover:text-teal-300 text-black md:text-4xl text-2xl"
+              className="no-underline text-black hover:text-white md:text-4xl text-2xl"
               data-testid="portfolio"
               href="/my-portfolio/portfolio"
             >
@@ -64,7 +64,7 @@ function Nav() {
           </li>
           <li className="hover:scale-125">
             <a
-              className="no-underline hover:text-teal-300 text-black md:text-4xl text-2xl"
+              className="no-underline text-black hover:text-white md:text-4xl text-2xl"
               data-testid="contact"
               href="/my-portfolio/contact"
             >
@@ -73,7 +73,7 @@ function Nav() {
           </li>
           <li className="hover:scale-125">
             <a
-              className="no-underline hover:text-teal-300 text-black md:text-4xl text-2xl"
+              className="no-underline text-black hover:text-white md:text-4xl text-2xl"
               data-testid="resume"
               href="/my-portfolio/resume"
             >
