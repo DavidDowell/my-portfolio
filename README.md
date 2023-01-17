@@ -29,7 +29,7 @@
   ![React](https://img.shields.io/badge/-React-green.svg?style=for-the-badge&logo=react&logoColor=white)
 
   ## Usage Information
-  View this application on my github pages link https://daviddowell.github.io/my-portfolio/resume where you can contact me via email in the contact section. This application works on both mobile and desktop layouts. Use the navigation bar on the top to move through the different components on the page. GitHub, LinkedIn, and other social pages are linked throughout the application.
+  View this application on my github pages link https://daviddowell.github.io/my-portfolio/ where you can contact me via email in the contact section. This application works on both mobile and desktop layouts. Use the navigation bar on the top to move through the different components on the page. GitHub, LinkedIn, and other social pages are linked throughout the application.
 
   ## License 
   
