@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/my-portfolio/static/css/main.98f1bdc3.css",
-    "main.js": "/my-portfolio/static/js/main.909f33f5.js",
+    "main.js": "/my-portfolio/static/js/main.1f442128.js",
     "static/js/787.128fc6e9.chunk.js": "/my-portfolio/static/js/787.128fc6e9.chunk.js",
     "static/media/meal-maker.jpg": "/my-portfolio/static/media/meal-maker.8bb8fe9abbc563ad955e.jpg",
     "static/media/ourplace.jpg": "/my-portfolio/static/media/ourplace.3f56a9e4bd10fd354e6a.jpg",
@@ -14,7 +14,7 @@
     "static/media/outline-icons.svg": "/my-portfolio/static/media/outline-icons.9c4845b4b41ef40a22fa.svg",
     "static/media/icons.eot": "/my-portfolio/static/media/icons.a01e3f2d6c83dc3aee17.eot",
     "static/media/icons.ttf": "/my-portfolio/static/media/icons.c656b8caa454ed19b9a2.ttf",
-    "static/media/DD-resume.pdf": "/my-portfolio/static/media/DD-resume.3f0d36939fd2cc62bd7f.pdf",
+    "static/media/DD-resume.pdf": "/my-portfolio/static/media/DD-resume.96756d9a8aa0fa1811b2.pdf",
     "static/media/brand-icons.eot": "/my-portfolio/static/media/brand-icons.d68fa3e67dbb653a13ce.eot",
     "static/media/brand-icons.ttf": "/my-portfolio/static/media/brand-icons.65a2fb6d9aaa164b41a0.ttf",
     "static/media/mongo.png": "/my-portfolio/static/media/mongo.26563542e685f38f4c01.png",
@@ -37,11 +37,11 @@
     "static/media/revicons.woff": "/my-portfolio/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/my-portfolio/index.html",
     "main.98f1bdc3.css.map": "/my-portfolio/static/css/main.98f1bdc3.css.map",
-    "main.909f33f5.js.map": "/my-portfolio/static/js/main.909f33f5.js.map",
+    "main.1f442128.js.map": "/my-portfolio/static/js/main.1f442128.js.map",
     "787.128fc6e9.chunk.js.map": "/my-portfolio/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.98f1bdc3.css",
-    "static/js/main.909f33f5.js"
+    "static/js/main.1f442128.js"
   ]
 }
