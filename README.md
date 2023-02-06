@@ -1,7 +1,7 @@
 
   # my-portfolio
 
-  https://daviddowell.github.io/my-portfolio/resume
+  https://daviddowell.github.io/my-portfolio/
 
   https://github.com/DavidDowell/my-portfolio
 

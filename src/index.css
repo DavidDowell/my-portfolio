@@ -131,3 +131,36 @@ textarea {
   font-family: 'Playfair Display', serif;
 }
 
+#Ellipse-1, #Ellipse-2  {
+  animation: wheel 4s infinite linear;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+#Ellipse-3, #Ellipse-4 {
+  animation: orbit 3s infinite linear;
+  transform-origin: center;
+}
+
+#Ellipse-5, #Ellipse-6, #Ellipse-7, #Ellipse-8, #Ellipse-9, #Ellipse-10 {
+  animation: orbit 5s infinite linear;
+  transform-origin: center;
+}
+
+@keyframes wheel {
+  from {
+    transform: rotateZ(0deg);
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+
+@keyframes orbit {
+  from {
+    transform: rotateZ(0deg);
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}

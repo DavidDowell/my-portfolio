@@ -5,6 +5,7 @@ import { AiFillGithub } from 'react-icons/ai'
 
 const About = () => {
     return(
+        <div>
         <section className="my-4 flex flex-wrap justify-center text-center p-5">
             <div className="title flex justify-center my-2 md:text-7xl text-5xl text-black" id='about'>
                 <div className="animate-fade-in-down">D</div>
@@ -34,6 +35,7 @@ const About = () => {
                     <img src={coverImage} className='img2 my-2 rounded-lg' style={{ width: '50%', height: '80%'}} alt='cover'/>
             </div>
         </section>
+        </div>
     )
 }
 
